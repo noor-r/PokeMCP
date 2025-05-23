@@ -37,6 +37,8 @@ uv venv .venv
 pip install -r requirements.txt
 or
 uv pip install -r requirements.txt
+
+
 For macOS/Linux
 # Create a virtual environment
 python3 -m venv .venv
