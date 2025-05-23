@@ -27,12 +27,16 @@ Setup Instructions
 For Windows
 # Create a virtual environment
 python -m venv .venv
+or
+uv venv .venv
 
 # Activate the virtual environment
 .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+or
+uv pip install -r requirements.txt
 For macOS/Linux
 # Create a virtual environment
 python3 -m venv .venv
